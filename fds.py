@@ -1,0 +1,10 @@
+a=[1,2]
+b=a
+print(id(a),id(b))
+print(a,b)
+b[0]=5
+print(id(a),id(b))
+print(a,b)
+b=[0]
+print(id(a),id(b))
+print(a,b)
